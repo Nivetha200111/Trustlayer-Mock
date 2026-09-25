@@ -1,0 +1,12 @@
+{
+  "name": "fisher-mock-integrations",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Mock TrustLayer (COI verification) and eCMS (subcontracts) APIs for a Fisher Industries ServiceNow demo",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "smoke": "bash test/smoke.sh"
+  }
+}
